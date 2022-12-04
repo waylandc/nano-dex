@@ -759,7 +759,7 @@
     ramda "0.25.0"
     shell-quote "1.6.1"
 
-"@oax/common@../l2x-trustless-exchange-browser-support/build/common", "@oax/common@0.3.6":
+"@oax/common@../l2x-trustless-exchange-browser-support/build/common":
   version "0.3.6"
   dependencies:
     "@types/consola" "^1.0.0"
@@ -776,6 +776,22 @@
     sqlite3 "4.0.8"
     winston "3.2.1"
     xmlhttprequest "^1.8.0"
+
+"@oax/common@0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@oax/common/-/common-0.3.6.tgz#d9dfb04f379779ed32ef712cd724ab3395764d84"
+  integrity sha512-UBajS0Q5m9D/c4cZCJ0mpSRC24WOkn2pi+eOUPciBblV8UtT+SEvbK9GhSPsirx/QgAKl5CSEvfxuhrvA5VBVA==
+  dependencies:
+    ajv "6.6.2"
+    bignumber.js "8.1.1"
+    ethereumjs-util "6.0.0"
+    ethers "4.0.27"
+    jsonapi-serializer "3.6.4"
+    knex "0.17.6"
+    path-to-regexp "2.4.0"
+    ramda "^0.25.0"
+    sqlite3 "4.0.8"
+    winston "2.4.4"
 
 "@parcel/fs@^1.11.0":
   version "1.11.0"
@@ -2397,9 +2413,9 @@ decamelize@^1.1.1, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^3.2.0, decompress-response@^3.3.0:
   version "3.3.0"
@@ -6456,7 +6472,7 @@ quote-stream@^1.0.1, quote-stream@~1.0.2:
     minimist "^1.1.3"
     through2 "^2.0.0"
 
-ramda@0.25.0:
+ramda@0.25.0, ramda@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
   integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
@@ -8444,6 +8460,18 @@ winston@2.1.x:
     eyes "0.1.x"
     isstream "0.1.x"
     pkginfo "0.3.x"
+    stack-trace "0.0.x"
+
+winston@2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-2.4.4.tgz#a01e4d1d0a103cf4eada6fc1f886b3110d71c34b"
+  integrity sha512-NBo2Pepn4hK4V01UfcWcDlmiVTs7VTB1h7bgnB0rgP146bYhMxX0ypCz3lBOfNxCO4Zuek7yeT+y/zM1OfMw4Q==
+  dependencies:
+    async "~1.0.0"
+    colors "1.0.x"
+    cycle "1.0.x"
+    eyes "0.1.x"
+    isstream "0.1.x"
     stack-trace "0.0.x"
 
 winston@3.2.1:
